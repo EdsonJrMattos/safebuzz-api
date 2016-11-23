@@ -64,6 +64,34 @@ module.exports.connections = {
   //   password: 'password', //optional
   //   database: 'your_mongo_db_name_here' //optional
   // },
+  //
+    // Development environment
+    mongodb_dev: {
+      adapter: 'sails-mongo',
+      host: 'localhost',
+      port: 27017,
+      database: 'safebuzz-development'
+    },
+    // Production environment
+    mongodb_prod: {
+      adapter: 'sails-mongo',
+      host: 'localhost',
+      port: 27017,
+      database: 'safebuzz-production'
+    },
+    // Staging environment
+    mongodb_staging: {
+      adapter: 'sails-mongo',
+      host: 'localhost',
+      port: 27017,
+      database: 'safebuzz-staging'
+    },
+    mongodb_test: {
+      adapter: 'sails-mongo',
+      host: 'localhost',
+      port: 27017,
+      database: 'safebuzz-test'
+    }
 
   /***************************************************************************
   *                                                                          *
