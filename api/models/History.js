@@ -10,6 +10,9 @@ module.exports = {
   attributes: {
     equipment: {
       model: 'equipment'
+    },
+    meteorology: {
+      model: 'meteorology'
     }
   }
 };
