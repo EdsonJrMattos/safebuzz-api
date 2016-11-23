@@ -8,7 +8,10 @@
 module.exports = {
 
   attributes: {
+    identify: 'string',
+    serialCode: 'string',
+    name: 'string',
+    description: 'string'
 
   }
 };
-
