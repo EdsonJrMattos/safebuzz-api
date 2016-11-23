@@ -13,6 +13,9 @@ module.exports = {
     },
     meteorology: {
       model: 'meteorology'
+    },
+    notification: {
+      model: 'notification'
     }
   }
 };
