@@ -16,6 +16,10 @@ module.exports = {
     status: {
       type: 'string',
       enum: ['pending', 'approved', 'denied']
+    },
+    equipments: {
+      collection:'Equipment',
+      via: 'client'
     }
   }
 };

@@ -11,7 +11,10 @@ module.exports = {
     identify: 'string',
     serialCode: 'string',
     name: 'string',
-    description: 'string'
+    description: 'string',
+    client: {
+      model: 'client'
+    }
 
   }
 };
